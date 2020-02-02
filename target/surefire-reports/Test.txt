@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: Test
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 38.287 s <<< FAILURE! - in Test
+Test.joinFanFightContest  Time elapsed: 18.292 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div class="bl b--black-05 w-12 dib tc f3 green h3 fw4 flex justify-center items-center">...</div> is not clickable at point (600, 31). Other element would receive the click: <div class="w-100 flex items-center justify-between db center ph6-l ph3-m" style="max-width: 1200px;">...</div>
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'LAPTOP-3OUEC4T9', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Shakeer\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c9811597b150ce19e80a0a29b1bde58a
+	at Test.joinFanFightContest(Test.java:39)
+
+Test.verifyKYC  Time elapsed: 11.171 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='loginButton']"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'LAPTOP-3OUEC4T9', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Shakeer\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c9811597b150ce19e80a0a29b1bde58a
+*** Element info: {Using=xpath, value=//a[@id='loginButton']}
+	at Test.verifyKYC(Test.java:60)
+
